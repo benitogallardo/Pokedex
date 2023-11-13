@@ -5,7 +5,7 @@ body {
 
 .buscador-botones {
   display: flex;
-  border: 3px solid white;
+ 
   align-items: center;
 }
 
@@ -88,4 +88,46 @@ body {
   color: #ffffff;
   margin-bottom: 0;
   border-radius: 3px;
+}
+/* ------------------------------------------------------------*/
+.botones-tipo {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.botones-tipo button {
+  background-color: #f8d030;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 8px 12px; /* Ajuste del espaciado interno para hacer los botones un poco más pequeños */
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px; /* Tamaño del texto reducido */
+}
+
+/* Ajuste del color de fondo para el tipo Acero */
+.botones-tipo .acero {
+  background-color: #b8b8d0;
+}
+
+/* Ajuste del color de fondo para el tipo Agua */
+.botones-tipo .agua {
+  background-color: #6890f0;
+}
+
+/* Repite el mismo patrón para otros tipos de botones */
+
+/* Cambio del color cuando el botón está activo */
+.botones-tipo button:active {
+  background-color: #d8d8d8;
+}
+
+.buscador {
+  margin: auto;
+  position: relative;
+}
+img{
+  width: 400px;    
 }

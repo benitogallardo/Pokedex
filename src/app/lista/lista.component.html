@@ -1,4 +1,9 @@
-
+<div class="cabecera">
+  <div class="buscador">
+    <!--<input type="search" name="busquedapokemon" placeholder="Nombre pokemon">-->
+    
+    <img src="../../assets/pokebuscador.png">
+  </div>
 <!--- <img src="../../assets/fondo.jpg">-->
 <div class="buscador-botones">
   <input class="cajatextobuscador" type="search" [(ngModel)]="nameP" placeholder="Nombre pokemon">
@@ -11,6 +16,7 @@
     <button class="3generacion" (click)="generacion(251,386)">3ª Generación</button>
     <button class="4generacion" (click)="generacion(386,493)">4ª Generación</button>
   </div>
+  
 
   <div class="botones-tipo">
     <button class="acero" (click)="tipos('steel')">Acero</button>
