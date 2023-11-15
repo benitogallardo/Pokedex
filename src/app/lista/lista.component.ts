@@ -75,10 +75,10 @@ export class ListaComponent implements OnInit {
 
   }
 
-  listaPokemon(){
-      this.filtrar();
+  /*listaPokemon(){
+      this.filtraKJGHGDHGGLr();
       return this.pokemons;
-  }
+  }*/
 
   reset(){
     this.cargar();
